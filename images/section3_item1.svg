@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 18V8C6 6.89543 6.89543 6 8 6H18" stroke="white" stroke-width="2"/>
+<path d="M46 6L58 6L58 18" stroke="white" stroke-width="2"/>
+<path d="M58 46L58 56C58 57.1046 57.1046 58 56 58L46 58" stroke="white" stroke-width="2"/>
+<line x1="6" y1="33" x2="6" y2="29" stroke="white" stroke-width="2"/>
+<line x1="6" y1="26" x2="6" y2="22" stroke="white" stroke-width="2"/>
+<line x1="58" y1="26" x2="58" y2="22" stroke="white" stroke-width="2"/>
+<line x1="58" y1="34" x2="58" y2="30" stroke="white" stroke-width="2"/>
+<line x1="58" y1="42" x2="58" y2="38" stroke="white" stroke-width="2"/>
+<line x1="38" y1="58" x2="42" y2="58" stroke="white" stroke-width="2"/>
+<line x1="31" y1="58" x2="35" y2="58" stroke="white" stroke-width="2"/>
+<line x1="22" y1="6" x2="26" y2="6" stroke="white" stroke-width="2"/>
+<line x1="30" y1="6" x2="34" y2="6" stroke="white" stroke-width="2"/>
+<line x1="38" y1="6" x2="42" y2="6" stroke="white" stroke-width="2"/>
+<rect x="6" y="37" width="21" height="21" rx="2" stroke="white" stroke-width="2"/>
+<path d="M57 7L26 38" stroke="white" stroke-width="2"/>
+</svg>
