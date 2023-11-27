@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="群暉科技 | Synology Inc.">
+    <meta name="copyright" content="版權歸屬群暉科技和作者"/>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.png" />
+    <title>群暉科技 Synology Inc.</title>
+  </head>
+
+  <body>
+    <script>
+      (function() {
+        let redirect = sessionStorage.redirect;
+
+        delete sessionStorage.redirect;
+
+        if (redirect && redirect !== location.href) {
+            history.replaceState(null, null, redirect);
+        }
+      }) ();
+    </script>
+  
+    <noscript>
+      <strong>你目前並沒有開啟JavaScript權限，若要正常瀏覽該網站，請確認允許使用你的JavaScript權限。</strong>
+    </noscript>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

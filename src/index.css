@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  /* background-color: red; */
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+span {
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+/* test for layout */
+/* * {
+  outline: 1px solid;
+} */
+
+/* 什麼前綴詞都不加就是 手機
+
+sm: 平板 斷點的前綴詞
+
+xl: 電腦(桌機 和 筆電)斷點的前綴詞 */
