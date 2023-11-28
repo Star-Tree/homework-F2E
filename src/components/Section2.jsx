@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import section2_1_1_svg from '@assets/images/section2-1-1.svg';
-import section2_1_2_svg from '@assets/images/section2-1-2.svg';
-import section2_2_svg from '@assets/images/section2-2.svg';
+import section2_1_1_jpg from '@assets/images/section2-1-1.jpg';
+import section2_1_2_jpg from '@assets/images/section2-1-2.jpg';
+import section2_2_jpg from '@assets/images/section2-2.jpg';
 
 const Section2 = () => {
   const [slide, setSlide] = useState(false);  // control slide in section 2-1.
@@ -50,11 +50,11 @@ const Section2 = () => {
         </div>
         
         {
-          !slide && <img src={ section2_1_1_svg } alt="section2-1-1 image" title="section2-1-1 image" className='xl:w-[34.3vw] rounded-[10px] object-contain' />
+          !slide && <img src={ section2_1_1_jpg } alt="section2-1-1 image" title="section2-1-1 image" className='xl:w-[34.3vw] rounded-[10px] object-contain' />
         }
 
         { 
-          slide && <img src={ section2_1_2_svg } alt="section2-1-2 image" title='section2-1-2 image' className='xl:w-[34.3vw] rounded-[10px] object-contain' />
+          slide && <img src={ section2_1_2_jpg } alt="section2-1-2 image" title='section2-1-2 image' className='xl:w-[34.3vw] rounded-[10px] object-contain' />
         }
       </div>
     
@@ -69,7 +69,7 @@ const Section2 = () => {
           </div>
         </div>
 
-        <img src={ section2_2_svg } alt="section2-2 image" title='section2-2 image' className='xl:w-[34.3vw] rounded-[10px] object-contain' />
+        <img src={ section2_2_jpg } alt="section2-2 image" title='section2-2 image' className='xl:w-[34.3vw] rounded-[10px] object-contain' />
       </div>
     </div>
   </>

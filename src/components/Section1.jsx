@@ -1,4 +1,4 @@
-import section1_svg from '@assets/images/section1.svg';
+import section1_jpg from '@assets/images/section1.jpg';
 
 const Section1 = () => {
   return <>
@@ -20,7 +20,7 @@ const Section1 = () => {
         </div>
       </div>
       
-      <img src={ section1_svg } alt="section1 image" title="section1 image" className='xl:w-[34.3vw] rounded-[10px] object-contain' />
+      <img src={ section1_jpg } alt="section1 image" title="section1 image" className='xl:w-[34.3vw] rounded-[10px] object-contain' />
     </div>
   </>
 }
