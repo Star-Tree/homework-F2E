@@ -1,4 +1,4 @@
-import section1_svg from '/images/section1.svg';
+import section1_svg from '@assets/images/section1.svg';
 
 const Section1 = () => {
   return <>

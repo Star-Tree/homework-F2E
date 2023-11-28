@@ -1,9 +1,9 @@
-import alabama_svg from '/images/section4_alabama.svg';
-import corin_svg from '/images/section4_corin.svg';
-import dsm_svg from '/images/section4_dsm.svg';
-import university_of_washington_svg from '/images/section4_university_of_washington.svg';
-import shiseido_svg from '/images/section4_shiseido.svg';
-import unesco from '/images/section4_unesco.svg';
+import alabama_svg from '@assets/images/section4_alabama.svg';
+import corin_svg from '@assets/images/section4_corin.svg';
+import dsm_svg from '@assets/images/section4_dsm.svg';
+import university_of_washington_svg from '@assets/images/section4_university_of_washington.svg';
+import shiseido_svg from '@assets/images/section4_shiseido.svg';
+import unesco from '@assets/images/section4_unesco.svg';
 
 const Section4 = () => {
   return <>

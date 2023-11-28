@@ -1,7 +1,7 @@
-import section5_card1_svg from '/images/section5_card1.svg';
-import section5_card2_svg from '/images/section5_card2.svg';
-import section5_card3_svg from '/images/section5_card3.svg';
-import section5_arrow_svg from '/images/section5_arrow.svg';
+import section5_card1_svg from '@assets/images/section5_card1.svg';
+import section5_card2_svg from '@assets/images/section5_card2.svg';
+import section5_card3_svg from '@assets/images/section5_card3.svg';
+import section5_arrow_svg from '@assets/images/section5_arrow.svg';
 
 const Section5 = () => {
   return <>

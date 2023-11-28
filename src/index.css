@@ -35,8 +35,8 @@ img {
   outline: 1px solid;
 } */
 
-/* 什麼前綴詞都不加就是 手機
+/* prefix for grid
 
-sm: 平板 斷點的前綴詞
+sm: grid of tablet
 
-xl: 電腦(桌機 和 筆電)斷點的前綴詞 */
+xl: grid of PC */

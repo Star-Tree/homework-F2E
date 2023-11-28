@@ -1,7 +1,7 @@
-import section3_item1_svg from '/images/section3_item1.svg';
-import section3_item2_svg from '/images/section3_item2.svg';
-import section3_item3_svg from '/images/section3_item3.svg';
-import section3_item4_svg from '/images/section3_item4.svg';
+import section3_item1_svg from '@assets/images/section3_item1.svg';
+import section3_item2_svg from '@assets/images/section3_item2.svg';
+import section3_item3_svg from '@assets/images/section3_item3.svg';
+import section3_item4_svg from '@assets/images/section3_item4.svg';
 
 const Section3 = () => {
   return <>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import section2_1_1_svg from '/images/section2-1-1.svg';
-import section2_1_2_svg from '/images/section2-1-2.svg';
-import section2_2_svg from '/images/section2-2.svg';
+import section2_1_1_svg from '@assets/images/section2-1-1.svg';
+import section2_1_2_svg from '@assets/images/section2-1-2.svg';
+import section2_2_svg from '@assets/images/section2-2.svg';
 
 const Section2 = () => {
   const [slide, setSlide] = useState(false);  // control slide in section 2-1.

@@ -1,7 +1,7 @@
 const Banner = () => {
   return <>
     {/* background for banner */}
-    <header className='w-[100vw] h-[100vh] xl:h-auto xl:w-full bg-cover bg-no-repeat bg-center bg-[url("/images/banner.svg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-32px] xl:mb-[-64px]'>
+    <header className='w-[100vw] h-[100vh] xl:h-auto xl:w-full bg-cover bg-no-repeat bg-center bg-[url("@assets/images/banner.svg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-32px] xl:mb-[-64px]'>
       {/* logo */}
       <h1 className='mb-16 xl:mb-8'>
           <a className='w-[131px] h-[32px] bg-[url("/images/logo.svg")] bg-no-repeat bg-contain overflow-hidden indent-[101%] whitespace-nowrap' href="#" onClick={ (e) => e.preventDefault() }>
