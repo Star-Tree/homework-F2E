@@ -4,7 +4,7 @@ const Banner = () => {
     <header className='w-[100vw] h-[100vh] xl:h-auto xl:w-full bg-cover bg-no-repeat bg-center bg-[url("@assets/images/banner.jpg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-32px] xl:mb-[-64px]'>
       {/* logo */}
       <h1 className='mb-16 xl:mb-8'>
-          <a className='w-[131px] h-[32px] bg-[url("@assets/images/logo.png")] bg-no-repeat bg-contain overflow-hidden indent-[101%] whitespace-nowrap' href="#" onClick={ (e) => e.preventDefault() }>
+          <a className='w-[131px] h-[32px] bg-[url("@assets/images/logo@2x.png")] bg-no-repeat bg-contain overflow-hidden indent-[101%] whitespace-nowrap' href="#" onClick={ (e) => e.preventDefault() }>
             群暉科技 Synology Inc.
           </a>
       </h1>
