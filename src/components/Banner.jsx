@@ -1,4 +1,21 @@
+import { useState } from "react";
+
 const Banner = () => {
+  const [index, setIndex] = useState(0);
+
+  const changeIndex = (num) => {
+    setIndex(num);
+  };
+
+  const whiteText = {
+    color: "white",
+  };
+
+  const grayText = {
+    color: "white",
+    opacity: "50%",
+  }
+
   return <>
     {/* background for banner */}
     <header className='w-full h-[100vh] xl:h-auto bg-cover bg-no-repeat bg-center bg-[url("@assets/images/banner.jpg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-40px] xl:mb-[-68px]'>
@@ -26,24 +43,29 @@ const Banner = () => {
     {/* nav about section(1 ~ 5) */}
     <nav className="sticky top-0 left-0 right-0">
       <ul className='flex flex-wrap xl:flex-nowrap justify-between bg-[#151E1C]/50 text-white/50 text-center'>
-        <li className='py-2 xl:py-5 flex-1 hover:text-white hover:cursor-pointer'>
-          <a href="#section1" className="text-xs xl:text-xl leading-6 focus:text-white">Section 1</a>
+        <li className='flex-1 hover:text-white hover:cursor-pointer'>
+          <a href="#section1" className="py-2 xl:py-5 text-xs xl:text-xl leading-6 active:text-white"
+          onClick={() => changeIndex(1)} style={(index === 1) ? whiteText : grayText}>Section 1</a>
         </li>
 
-        <li className='py-2 xl:py-5 flex-1 hover:text-white hover:cursor-pointer'>
-          <a href="#section2" className="text-xs xl:text-xl leading-6 focus:text-white">Section 2</a>
+        <li className='flex-1 hover:text-white hover:cursor-pointer active:text-white'>
+          <a href="#section2" className="py-2 xl:py-5 text-xs xl:text-xl leading-6"
+          onClick={() => changeIndex(2)} style={(index === 2) ? whiteText : grayText}>Section 2</a>
         </li>
 
-        <li className='py-2 xl:py-5 flex-1 hover:text-white hover:cursor-pointer'>
-          <a href="#section3" className="text-xs xl:text-xl leading-6 focus:text-white">Section 3</a>
+        <li className='flex-1 hover:text-white hover:cursor-pointer active:text-white'>
+          <a href="#section3" className="py-2 xl:py-5 text-xs xl:text-xl leading-6"
+          onClick={() => changeIndex(3)} style={(index === 3) ? whiteText : grayText}>Section 3</a>
         </li>
 
-        <li className='py-2 xl:py-5 flex-1 hover:text-white hover:cursor-pointer'>
-          <a href="#section4" className="text-xs xl:text-xl leading-6 focus:text-white">Section 4</a>
+        <li className='flex-1 hover:text-white hover:cursor-pointer active:text-white'>
+          <a href="#section4" className="py-2 xl:py-5 text-xs xl:text-xl leading-6"
+          onClick={() => changeIndex(4)} style={(index === 4) ? whiteText : grayText}>Section 4</a>
         </li>
 
-        <li className='py-2 xl:py-5 flex-1 hover:text-white hover:cursor-pointer'>
-          <a href="#section5" className="text-xs xl:text-xl leading-6 focus:text-white">Section 5</a>
+        <li className='flex-1 hover:text-white hover:cursor-pointer active:text-white'>
+          <a href="#section5" className="py-2 xl:py-5 text-xs xl:text-xl leading-6"
+          onClick={() => changeIndex(5)} style={(index === 5) ? whiteText : grayText}>Section 5</a>
         </li>
       </ul>
     </nav>
