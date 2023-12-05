@@ -5,7 +5,7 @@ const Section1 = () => {
     <div id="section1" className="xl:flex xl:justify-center py-12 xl:py-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[13vw]">
       <div className='xl:w-[30.3vw] xl:mr-[8.7vw] text-[#2E3742]'>
         <div className='mb-8'>
-          <h3 className='font-semibold text-2xl xl:text-[32px] leading-[46px]'>Section 1</h3>
+          <h3 className='mb-2 font-semibold text-2xl xl:text-[32px] leading-[46px]'>Section 1</h3>
           <p className='font-normal text-xs xl:text-base leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
 

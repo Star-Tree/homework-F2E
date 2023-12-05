@@ -10,7 +10,7 @@ const Section5 = () => {
 
       <ul className="xl:flex xl:justify-center">
         {/* card1 */}
-        <li className='xl:w-[23.4vw] xl:mr-[1.2vw] mb-16 xl:mb-0 hover:drop-shadow-lg hover:cursor-pointer'>
+        <li className='xl:w-[23.4vw] xl:mr-[1.2vw] mb-16 xl:mb-0 hover:cursor-pointer hover:shadow-[0_0_30px_0px_rgba(0,0,0,0.1)] hover:rounded-[10px] transition-all'>
           <img src={ section5_card1_jpg } alt="section5 card1 image" title="section5 card1 image" className='w-full object-contain' />
 
           <div className='flex flex-col justify-between h-[310px] p-8 bg-white rounded-b-[10px]'>
@@ -30,7 +30,7 @@ const Section5 = () => {
         </li>
 
         {/* card2 */}
-        <li className='xl:w-[23.4vw] xl:mr-[1.2vw] mb-16 xl:mb-0 hover:drop-shadow-lg hover:cursor-pointer'>
+        <li className='xl:w-[23.4vw] xl:mr-[1.2vw] mb-16 xl:mb-0 hover:shadow-[0_0_30px_0px_rgba(0,0,0,0.1)] hover:cursor-pointer hover:rounded-[10px] transition-all'>
           <img src={ section5_card2_jpg } alt="section5 card2 image" title="section5 card2 image" className='w-full object-contain' />
           
           <div className='flex flex-col justify-between h-[310px] p-8 bg-white rounded-b-[10px]'>
@@ -50,7 +50,7 @@ const Section5 = () => {
         </li>
 
         {/* card3 */}
-        <li className='xl:w-[23.4vw] hover:drop-shadow-lg hover:cursor-pointer'>
+        <li className='xl:w-[23.4vw] hover:cursor-pointer hover:shadow-[0_0_30px_0px_rgba(0,0,0,0.1)] hover:rounded-[10px] transition-all'>
           <img src={ section5_card3_jpg } alt="section5 card3 image" title="section5 card3 image" className='w-full object-contain' />
           
           <div className='flex flex-col justify-between h-[310px] p-8 bg-white rounded-b-[10px]'>
