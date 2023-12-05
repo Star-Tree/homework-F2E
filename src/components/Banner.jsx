@@ -18,17 +18,17 @@ const Banner = () => {
 
   return <>
     {/* background for banner */}
-    <header className='w-full h-[100vh] xl:h-auto bg-cover bg-no-repeat bg-center bg-[url("@assets/images/banner.jpg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-40px] xl:mb-[-68px]'>
+    <header className='w-full h-[100vh] xl:h-auto bg-cover bg-no-repeat bg-center bg-black/50 xl:bg-transparent bg-blend-multiply xl:bg-blend-normal bg-[url("@assets/images/banner.jpg")] pt-8 xl:pt-[100px] px-[10vw] xl:pl-[13.5vw] xl:pr-[55.2vw] xl:pb-[164px] mb-[-40px] xl:mb-[-68px]'>
       {/* logo */}
       <h1 className='mb-16 xl:mb-8'>
-          <a className='w-[131px] h-[32px] bg-[url("@assets/images/logo@2x.png")] bg-no-repeat bg-contain overflow-hidden indent-[101%] whitespace-nowrap' href="#" onClick={ (e) => e.preventDefault() }>
+          <a className='w-[131px] h-[32px] invert xl:invert-0 bg-[url("@assets/images/logo@2x.png")] bg-no-repeat bg-contain overflow-hidden indent-[101%] whitespace-nowrap' href="#" onClick={ (e) => e.preventDefault() }>
             群暉科技 Synology Inc.
           </a>
       </h1>
 
-      <h2 className='mb-8 xl:mb-4 text-xl xl:text-[46px] leading-7 xl:leading-[62px] font-bold text-[#2E3742]'>Banner Lorem Ipsum Lorem Ipsum</h2>
+      <h2 className='mb-8 xl:mb-4 text-xl xl:text-[46px] leading-7 xl:leading-[62px] font-bold text-white xl:text-[#2E3742]'>Banner Lorem Ipsum Lorem Ipsum</h2>
 
-      <p className='mb-40 xl:mb-8 text-base xl:text-xl leading-[30px] font-normal text-[#2E3742]'>
+      <p className='mb-16 xl:mb-8 text-base xl:text-xl leading-[30px] font-normal text-white xl:text-[#2E3742]'>
         "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
       </p>
 
@@ -36,9 +36,6 @@ const Banner = () => {
         Request a demo
       </button>
     </header>
-
-    {/* mask for tablet or mobile */}
-    {/* <div className="xl:hidden absolute w-full h-[100vh] left-0 right-0 top-0 bg-black/40 z-10"></div> */}
 
     {/* nav about section(1 ~ 5) */}
     <nav className="sticky top-0 left-0 right-0">
