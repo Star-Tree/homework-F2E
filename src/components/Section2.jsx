@@ -10,6 +10,14 @@ const Section2 = () => {
     index ? setSlide(true) : setSlide(false);
   }
 
+  const borderBlue = {
+    borderColor: "#0067E6",
+  }
+
+  const borderWhite = {
+    borderColor: "white",
+  }
+
   return <>
     <div id="section2" className="pt-16 xl:pt-[100px] px-[10vw] xl:px-[13.5vw] bg-[#F3F3F3] text-[#2E3742]">
       <h3 className="pb-8 xl:pb-16 border-b border-[#CFCFCF] font-semibold text-2xl xl:text-[32px] leading-[46px] text-center">Section 2</h3>
@@ -26,7 +34,9 @@ const Section2 = () => {
 
           <div>
             {/* Where can I get some? */}
-            <div className='mb-5 pl-6 border-l-[5px] border-[#0067E6] hover:cursor-pointer'>
+            <div className='mb-5 pl-6 border-l-[5px] border-[#0067E6] hover:cursor-pointer' 
+                 style={ !slide ?  borderBlue : borderWhite }
+            >
               <span className='mb-2 font-semibold text-xl leading-[30px]' onClick={() => toggleSlide(0)}>
                 Where can I get some?
               </span>
@@ -37,7 +47,9 @@ const Section2 = () => {
             </div>
 
             {/* Where does it come from? */}
-            <div className=' mb-8 xl:mb-0 pl-6 border-l-[5px] border-white hover:cursor-pointer'>
+            <div className=' mb-8 xl:mb-0 pl-6 border-l-[5px] border-white hover:cursor-pointer'
+                 style={ slide ?  borderBlue : borderWhite }
+            >
               <span className='font-semibold text-xl leading-[30px] text-[#2E3742]/50' onClick={() => toggleSlide(1)}>
                 Where does it come from?
               </span>

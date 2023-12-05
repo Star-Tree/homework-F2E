@@ -39,7 +39,7 @@ const Section3 = () => {
           <img src={ section3_item4_png } alt="section3 item4 image" title="section3 item4 image" className='mx-auto mb-4 w-16 h-16 object-contain' />
           <span className='mb-2 font-semibold text-xs xl:text-xl leading-[30px]'>item 4</span>
           <p className='h-24 xl:h-[120px] mb-2 xl:mb-4 font-normal text-xs xl:text-base leading-6'>In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready.</p>
-          <a href="#" onClick={ (e) => e.preventDefault() } className='font-normal leading-7 text-[#2789F2] underline underline-offset-2 hover:no-underline'>Learn more</a>
+          {/* <a href="#" onClick={ (e) => e.preventDefault() } className='font-normal leading-7 text-[#2789F2] underline underline-offset-2 hover:no-underline'>Learn more</a> */}
         </li>
       </ul>
     </div>
